@@ -5983,6 +5983,23 @@ msgstr ""
 msgid "Note: AstroBox version at least 1.1.0 is required."
 msgstr ""
 
+#: src/slic3r/Utils/Repetier.cpp:68 src/slic3r/Utils/OctoPrint.cpp:68
+#, possible-c-format
+msgid "Mismatched type of print host: %s"
+msgstr ""
+
+#: src/slic3r/Utils/Repetier.cpp:83
+msgid "Connection to Repetier works correctly."
+msgstr ""
+
+#: src/slic3r/Utils/Repetier.cpp:89
+msgid "Could not connect to Repetier"
+msgstr ""
+
+#: src/slic3r/Utils/Repetier.cpp:89
+msgid "Note: Repetier version at least 1.1.0 is required."
+msgstr ""
+
 #: src/slic3r/Utils/Duet.cpp:49
 msgid "Connection to Duet works correctly."
 msgstr ""

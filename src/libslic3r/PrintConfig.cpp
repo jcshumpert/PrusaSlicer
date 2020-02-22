@@ -1337,10 +1337,12 @@ void PrintConfigDef::init_fff_params()
     def->enum_values.push_back("duet");
     def->enum_values.push_back("flashair");
     def->enum_values.push_back("astrobox");
+    def->enum_values.push_back("repetier");
     def->enum_labels.push_back("OctoPrint");
     def->enum_labels.push_back("Duet");
     def->enum_labels.push_back("FlashAir");
     def->enum_labels.push_back("AstroBox");
+    def->enum_labels.push_back("Repetier");
     def->mode = comAdvanced;
     def->set_default_value(new ConfigOptionEnum<PrintHostType>(htOctoPrint));
 
